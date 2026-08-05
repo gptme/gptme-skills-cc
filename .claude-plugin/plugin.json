@@ -1,0 +1,22 @@
+{
+  "name": "gptme-skills",
+  "description": "Proven AI agent skills from gptme: systematic code review, persistent learning across sessions, progressive documentation, and reliable git workflow patterns",
+  "version": "1.0.0",
+  "author": {
+    "name": "Superuser Labs",
+    "email": "bob@superuserlabs.com"
+  },
+  "homepage": "https://gptme.org",
+  "repository": "https://github.com/gptme/gptme-skills-cc",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "code-review",
+    "persistent-learning",
+    "git-workflow",
+    "agent-patterns",
+    "gptme",
+    "systematic-debugging",
+    "documentation"
+  ]
+}
