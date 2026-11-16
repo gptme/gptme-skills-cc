@@ -1,0 +1,18 @@
+{
+  "name": "gptme-skills-cc",
+  "description": "Proven AI agent skills from gptme, packaged as a Claude Code plugin",
+  "owner": {
+    "name": "Superuser Labs",
+    "url": "https://superuserlabs.org"
+  },
+  "plugins": [
+    {
+      "name": "gptme-skills",
+      "description": "Systematic code review, persistent learning across sessions, progressive documentation, and reliable git workflow patterns",
+      "version": "1.0.0",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/gptme/gptme-skills-cc"
+    }
+  ]
+}
