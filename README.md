@@ -4,23 +4,35 @@ Battle-tested AI agent skills from [gptme](https://gptme.org), packaged as a Cla
 
 ## Install
 
+From inside Claude Code:
+
 ```
-/plugin install github:gptme/gptme-skills-cc
+/plugin marketplace add gptme/gptme-skills-cc
+/plugin install gptme-skills@gptme-skills-cc
 ```
 
-Or from the Claude Code marketplace (coming soon):
+or from a shell:
+
+```bash
+claude plugin marketplace add gptme/gptme-skills-cc
+claude plugin install gptme-skills@gptme-skills-cc
 ```
-/plugin install gptme-skills@claude-plugins-official
-```
+
+`claude plugin details gptme-skills` should list four skills. Skills are namespaced by the
+plugin name, so they are invoked as `/gptme-skills:code-review` and so on.
+
+The older `/plugin install github:gptme/gptme-skills-cc` form no longer resolves: Claude Code
+looks the plugin up in a configured marketplace, and this repo is its own marketplace only
+once it is added as above. A listing in the official marketplace is not live yet.
 
 ## Skills
 
 | Skill | Description |
 |-------|-------------|
-| `/code-review` | Systematic PR and code audit workflow with bundled analysis utilities |
-| `/persistent-learning` | Capture insights to durable files so future sessions inherit the knowledge |
-| `/progressive-disclosure` | Restructure large documentation into token-efficient slim indexes |
-| `/git-workflow` | Conventional commits, worktree branches, CI gate — reliable git for AI agents |
+| `/gptme-skills:code-review` | Systematic PR and code audit workflow with bundled analysis utilities |
+| `/gptme-skills:persistent-learning` | Capture insights to durable files so future sessions inherit the knowledge |
+| `/gptme-skills:progressive-disclosure` | Restructure large documentation into token-efficient slim indexes |
+| `/gptme-skills:git-workflow` | Conventional commits, worktree branches, CI gate — reliable git for AI agents |
 
 ## Why gptme Skills?
 
