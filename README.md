@@ -23,7 +23,13 @@ plugin name, so they are invoked as `/gptme-skills:code-review` and so on.
 
 The older `/plugin install github:gptme/gptme-skills-cc` form no longer resolves: Claude Code
 looks the plugin up in a configured marketplace, and this repo is its own marketplace only
-once it is added as above. A listing in the official marketplace is not live yet.
+once it is added as above.
+
+From the Claude Code marketplace (coming soon):
+
+```
+/plugin install gptme-skills@claude-plugins-official
+```
 
 ## Skills
 
